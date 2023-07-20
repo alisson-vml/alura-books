@@ -85,4 +85,11 @@
   .cabeçalho__menu-hamburguer{
     display: none;
   }
+  .opções__botao:checked ~ .lista-menu{
+    display: block;
+    width: auto;
+  }
+  .opções__botao{
+    display: none;
+  }
 }
