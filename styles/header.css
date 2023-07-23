@@ -54,7 +54,9 @@
 .opções{
   display: none;
 }
-
+.container__texto{
+  display: none;
+}
 @media screen and (min-width: 1024px){
   .container__titulo, .container__titulo--negrito{
     font-family:var(--fonte-secundaria);
@@ -75,6 +77,7 @@
     padding: 0 1em;
     text-transform: uppercase;
   }
+ 
   .opções__link{
     text-decoration:none;
     color: var(--preto);
@@ -92,4 +95,23 @@
   .opções__botao{
     display: none;
   }
+}
+
+@media screen and (min-width: 1728px) {
+  .container__link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: var(--preto);
+  }
+  .cabeçalho{
+    padding: 0 2em;
+  }
+  .opções{
+    margin-right: auto;
+  }
+  .container__texto{
+    display: block;
+  }
+
 }
