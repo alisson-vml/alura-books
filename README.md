@@ -2,7 +2,7 @@
 
 <h1>Screenshot desktop</h1>
 <p align = "center">
-  <img src=".img/github/preview.png" alt="Demonstração do projeto" width="100%"/>
+  <img src=".github/preview.png" alt="Demonstração do projeto" width="100%"/>
 </p>
 <h1>Screenshot mobile</h1>
 <p align = "center">
