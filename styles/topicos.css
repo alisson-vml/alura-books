@@ -34,6 +34,9 @@
   .topicos__lista{
     margin: 2em 9em;
   }
- 
-  
+}
+@media  screen and (min-width:1828px) {
+  .topicos{
+    padding: 3em 20vw;
+  }
 }
