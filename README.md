@@ -1,4 +1,4 @@
-[Projeto AluraBooks](https://alisson-vml.github.io/""/)
+[Projeto AluraBooks](https://alisson-vml.github.io/alura-books/)
 
 <p align = "center">
   <img src=".github/preview.png" alt="Demonstração do projeto" width="100%"/>
