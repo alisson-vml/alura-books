@@ -34,6 +34,10 @@
   .topicos__lista{
     margin: 2em 9em;
   }
+  .topicos__link:hover{
+    color: var(--laranja);
+    background-color: var(--branco);
+  }
 }
 @media  screen and (min-width:1828px) {
   .topicos{

@@ -6,6 +6,14 @@
   background-position: center;
   display: inline-block;
 }
+ /* O ~ procura um outro elemento que esteja após ele que contenha aquela classe
+ O > procura algo que está dentro do elemento, dentro do label tem o cabeçalho do menu */
+.container__botao:checked ~ .container__rotulo > .cabeçalho__menu-hamburguer{
+  background-image: url("../img/menu_branco.svg");
+}
+.container__botao:checked ~ .container__rotulo{
+  background: var(--azul-degrade);
+}
 .cabeçalho {
   background-color: var(--branco);
   display: flex;
@@ -94,6 +102,22 @@
   }
   .opções__botao{
     display: none;
+  }
+  /* O ~ procura um outro elemento que esteja após ele, que contenha aquela classe
+  O > procura algo que está dentro do elemento, dentro do label tem o cabeçalho do menu */
+  .opções__botao:checked ~.opções__rotulo > .opções__item{
+    background: var(--azul-degrade);
+    color: var(--branco);
+  }
+  .opções__item{
+    padding: 2em 1em;
+  }
+  .lista-menu__item:hover{
+    background: var(--azul-degrade);
+  }
+  .lista-menu__item:hover > .lista-menu__link{
+    -webkit-text-fill-color: var(--branco);
+    text-decoration:none;
   }
 }
 
